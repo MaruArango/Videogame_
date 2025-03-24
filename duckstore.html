@@ -6,40 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pale Azure Background</title>
     <style>
-
         body {
-    
             background-color: #B0E0E6; /* Pale Azure */
+            margin: 0;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center; /* Centra todo el contenido en el medio */
             align-items: center;
             height: 100vh;
-            margin: 0;
         }
-        img {
+        
+        .contenedor {
+            display: flex; /* Usamos flexbox para organizar la imagen y el cuadro */
+            align-items: center;
+        }
+
+        /* Estilos para la imagen */
+        .imagen {
             width: 650px;
             height: 850px;
+            margin-right: 20px; /* Espacio entre la imagen y el cuadro */
         }
-        .cuadrado {
-            width: 100px;
-            height: 100px;
-            background-color: white;
-        } 
+
+        /* Cuadro azul con la imagen del título arriba */
+        .cuadro {
+            background-color: #1E90FF; /* Azul */
+            padding: 20px;
+            width: 200px; /* Ancho del cuadro */
+            height: 250px; /* Alto del cuadro */
+            display: flex;
+            flex-direction: column; /* Coloca los elementos en columna */
+            justify-content: flex-start; /* Alinea los elementos desde arriba */
+            align-items: center;
+        }
+
+        /* Estilo para el título */
+        .titulo {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px; /* Espacio entre el título y el resto del cuadro */
+        }
+
+        .titulo img {
+            width: 100px; /* Tamaño de la imagen del título */
+            height: auto;
+        }
+
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td colspan="4"><h1>Duckmath store</h1></td>
-        </tr>
-        <tr>
-            <td colspan='4'><img src=''></img></td>
-        </tr>
-        
-    </table>
 
-    
-    <p></p>
+    <div class="contenedor">
+        <!-- Imagen de la izquierda -->
+        <img src="tu-imagen.jpg" alt="Imagen" class="imagen">
+        
+        <!-- Cuadro azul con la imagen del título -->
+        <div class="cuadro">
+            <div class="titulo">
+                <img src="titulo-imagen.jpg" alt="Título"> <!-- Imagen del título -->
+                <h1>Duckmath Store</h1> <!-- Título -->
+            </div>
+            <!-- Puedes agregar más contenido dentro del cuadro si lo deseas -->
+        </div>
+    </div>
 
 </body>
 </html>
