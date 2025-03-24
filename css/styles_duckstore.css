@@ -1,0 +1,20 @@
+@font-face {
+    font-family: '8-bit arcade';
+    src: url("../fonts/8-bit%20Arcade%20Out.ttf");
+}
+body {
+    background-color: rgb(215, 229, 234);
+    font-family: '8-bit arcade', sans-serif;
+}
+td {
+    text-align:center;
+}
+h1 {
+    color: black;
+    font-family: '8-bit arcade';
+    background-color: lightblue;
+}
+
+img {
+    width: 85%;
+}
