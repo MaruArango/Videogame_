@@ -1,0 +1,119 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1, h2 {
+    color: white;
+  }
+  
+  #container {
+    position: relative;
+    width: 100%;
+  }
+  
+  #mapa {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  
+  #pato {
+      position: absolute;
+      z-index: 3; 
+      width: 50px;
+      height: 50px;
+      transition: top 0.3s, left 0.3s; 
+  }
+  
+  .button {
+    position: absolute;
+    z-index: 2; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #949494;
+  }
+  
+  #isla1 {
+    top: 18%;
+    left: 34%;
+  }
+  
+  #isla2 {
+    top: 24%;
+    left: 39%;
+  }
+  
+  #isla3{
+    top: 29%;
+    left: 32%;
+  }
+  
+  #isla4{
+    top: 39%;
+    left: 26%;
+  }
+  
+  #isla5 {
+    top: 48%;
+    left: 39%;
+  }
+  
+  #isla6 {
+    top: 55%;
+    left: 20%;
+  }
+  
+  
+  #isla7 {
+    top: 63%;
+    left: 29%;
+  }
+  
+  
+  #isla8 {
+    top: 78%;
+    left: 24%;
+  }
+  
+  #isla9 {
+    top: 21%;
+    left: 63%;
+  }
+  
+  
+  #isla10 {
+    top: 31%;
+    left: 73%;
+  }
+  
+  #isla11 {
+    top: 40%;
+    left: 63%;
+  }
+  
+  #isla12 {
+    top: 44%;
+    left: 73%;
+  }
+  
+  #isla13 {
+    top: 60%;
+    left: 68%;
+  }
+  
+  #tienda1 {
+    top: 77%;
+    left: 75%;
+  }

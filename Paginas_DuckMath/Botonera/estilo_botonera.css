@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Hace que la imagen de fondo permanezca fija al hacer scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white; /* Cambié el color del texto a blanco para que se vea bien sobre el fondo */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #0077B6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .niveles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .nivel-btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #023EA8;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nivel-btn:hover {
+    background-color: #0255A3;
+  }
+  
+  #facil {
+    background-color: green;
+  }
+  
+  #intermedio {
+    background-color: orange;
+  }
+  
+  #reto {
+    background-color: red;
+  }
+  
+  #facil:hover {
+    background-color: darkgreen;
+  }
+  
+  #intermedio:hover {
+    background-color: darkorange;
+  }
+  
+  #reto:hover {
+    background-color:darkred;
+  }
