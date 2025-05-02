@@ -117,3 +117,97 @@ body {
     top: 77%;
     left: 75%;
   }
+
+    h1, h2 {
+      color: white;
+    }
+
+    #container {
+      position: relative;
+      width: 100%;
+    }
+
+    #mapa {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: auto;
+    }
+
+    #pato {
+      position: absolute;
+      z-index: 3;
+      width: 50px;
+      height: 50px;
+      transition: top 0.3s, left 0.3s;
+    }
+
+    .button {
+      position: absolute;
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    /* Overlay y Modal */
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 20;
+    }
+
+    #modal {
+      display: none;
+      position: fixed;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #0077B6;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+      z-index: 30;
+      color: white;
+    }
+
+    #modal h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .nivel-btn {
+      padding: 20px 40px;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      color: white;
+    }
+
+    #facil {
+      background-color: green;
+    }
+
+    #intermedio {
+      background-color: orange;
+    }
+
+    #reto {
+      background-color: red;
+    }
+
+    #closeBtn {
+      position: absolute;
+      top: 5px; right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }

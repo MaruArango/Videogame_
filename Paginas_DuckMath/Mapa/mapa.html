@@ -1,27 +1,81 @@
+<!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="estilo_mapa.css">
-    <script src="mapa.js"></script>
-  <body>
-    <h1>The land of...</h1>
-    <h2>dearglowly</h2>
-    <div id="container">
-      <img id='mapa' src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3557f710-d223-4413-abfe-12ca2d3af1ba/dg2eo3v-cd995742-89ea-4536-a15b-4059c91a6b11.jpg/v1/fill/w_1600,h_837,q_75,strp/map_design___mobile_game_by_pedrodeelizalde_dg2eo3v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODM3IiwicGF0aCI6IlwvZlwvMzU1N2Y3MTAtZDIyMy00NDEzLWFiZmUtMTJjYTJkM2FmMWJhXC9kZzJlbzN2LWNkOTk1NzQyLTg5ZWEtNDUzNi1hMTViLTQwNTljOTFhNmIxMS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Y69TW-zv5w92GaIXcJG7lkX5DcQBlieWfXJqNaSA-O4" alt= "Island map">
-      <img id="pato" src="https://static.vecteezy.com/system/resources/previews/024/704/556/non_2x/duck-with-ai-generated-free-png.png" alt="Pato">
-      
-       <button class="button" id='isla1'> Island 1 </button>
-       <button class="button" id='isla2'> Island 2 </button>
-       <button class="button" id='isla3'> Island 3 </button>
-       <button class="button" id='isla4'> Island 4 </button>
-       <button class="button" id='isla5'> Island 5 </button>
-       <button class="button" id='isla6'> Island 6 </button>
-       <button class="button" id='isla7'> Island 7 </button>
-       <button class="button" id='isla8'> Island 8 </button>
-       <button class="button" id='isla9'> Island 9 </button>
-       <button class="button" id='isla10'> Island 10</button>
-       <button class="button" id='isla11'> Island 11 </button>
-       <button class="button" id='isla12'> Island 12 </button>
-       <button class="button" id='isla13'> Island 13 </button>
-       <button class="button" id='tienda1'> Tienda 1 </button>
-     </div>
-  </body>
+<head>
+  <link rel="stylesheet" href="estilo_mapa.css">
+</head>
+<body>
+  <h1>The land of...</h1>
+  <h2>dearglowly</h2>
+  <div id="container">
+    <img id='mapa' src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3557f710-d223-4413-abfe-12ca2d3af1ba/dg2eo3v-cd995742-89ea-4536-a15b-4059c91a6b11.jpg/v1/fill/w_1600,h_837,q_75,strp/map_design___mobile_game_by_pedrodeelizalde_dg2eo3v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODM3IiwicGF0aCI6IlwvZlwvMzU1N2Y3MTAtZDIyMy00NDEzLWFiZmUtMTJjYTJkM2FmMWJhXC9kZzJlbzN2LWNkOTk1NzQyLTg5ZWEtNDUzNi1hMTViLTQwNTljOTFhNmIxMS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Y69TW-zv5w92GaIXcJG7lkX5DcQBlieWfXJqNaSA-O4" alt="Island map">
+    <img id="pato" src="https://static.vecteezy.com/system/resources/previews/024/704/556/non_2x/duck-with-ai-generated-free-png.png" alt="Pato">
+
+    <!-- Botones de isla -->
+    <button class="button" id='isla1'> Island 1 </button>
+    <button class="button" id='isla2'> Island 2 </button>
+    <button class="button" id='isla3'> Island 3 </button>
+    <button class="button" id='isla4'> Island 4 </button>
+    <button class="button" id='isla5'> Island 5 </button>
+    <button class="button" id='isla6'> Island 6 </button>
+    <button class="button" id='isla7'> Island 7 </button>
+    <button class="button" id='isla8'> Island 8 </button>
+    <button class="button" id='isla9'> Island 9 </button>
+    <button class="button" id='isla10'> Island 10</button>
+    <button class="button" id='isla11'> Island 11 </button>
+    <button class="button" id='isla12'> Island 12 </button>
+    <button class="button" id='isla13'> Island 13 </button>
+    <button class="button" id='tienda1'> Tienda 1 </button>
+  </div>
+
+  <!-- Overlay y Modal -->
+  <div id="overlay"></div>
+  <div id="modal">
+    <span id="closeBtn">&times;</span>
+    <h1>Selecciona el Nivel de Dificultad</h1>
+    <div>
+      <button class="nivel-btn" id="facil" onclick="mostrarSeleccion('Facil')">Facil</button>
+      <button class="nivel-btn" id="intermedio" onclick="mostrarSeleccion('Intermedio')">Intermedio</button>
+      <button class="nivel-btn" id="reto" onclick="mostrarSeleccion('Reto')">Reto</button>
+    </div>
+    <p id="mensaje" style="margin-top: 20px; font-size: 18px;"></p>
+  </div>
+
+  <script>
+    const pato = document.getElementById('pato');
+
+    function mostrarPato(idBoton) {
+      const boton = document.getElementById(idBoton);
+      const rect = boton.getBoundingClientRect();
+      pato.style.top = rect.top + window.scrollY - 160 + 'px';
+      pato.style.left = rect.left + (boton.offsetWidth / 2) - 25 + 'px';
+    }
+
+    function mostrarSeleccion(nivel) {
+      document.getElementById('mensaje').innerText = "Seleccionaste: " + nivel;
+    }
+
+    function mostrarModal() {
+      document.getElementById("overlay").style.display = "block";
+      document.getElementById("modal").style.display = "block";
+    }
+
+    function cerrarModal() {
+      document.getElementById("overlay").style.display = "none";
+      document.getElementById("modal").style.display = "none";
+      document.getElementById('mensaje').innerText = '';
+    }
+
+    document.getElementById("closeBtn").onclick = cerrarModal;
+    document.getElementById("overlay").onclick = cerrarModal;
+
+    // Asignar eventos a los botones
+    const botones = document.querySelectorAll('.button');
+    botones.forEach(boton => {
+      boton.addEventListener('click', () => {
+	mostrarPato(boton.id);
+  	setTimeout(mostrarModal, 350); // 350ms de delay para dejar que el pato se mueva
+	});
+    });
+  </script>
+</body>
 </html>
