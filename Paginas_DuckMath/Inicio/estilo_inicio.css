@@ -17,7 +17,7 @@ height: auto; /* Mantiene la proporción de la imagen */
 
 .img2{
 position: absolute;
-top: 38%; /* Posiciona la imagen en el 50% desde el top */
+top: 30%; /* Posiciona la imagen en el 50% desde el top */
 left: 50%; /* Posiciona la imagen en el 50% desde la izquierda */
 transform: translate(-50%, -50%); /* Ajusta la imagen para que quede centrada */
 width: 650px; /* Tamaño de la imagen */

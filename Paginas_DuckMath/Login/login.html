@@ -15,30 +15,30 @@
   </div>
 
   <div class="container">
-
     <div class="main-box">
-
       <div class="registro-label">Iniciar Sesión</div>
 
-      <div class="input-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="Ingresa tu nombre de usuario">
-      </div>
+      <!-- Formulario de login -->
+      <form action="login.php" method="POST" id="loginForm">
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Ingresa tu nombre de usuario" required>
+        </div>
 
-      <div class="input-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
-      </div>
-      <button class="continue-btn" onclick="location.href='mapa.html'">Iniciar Sesión</button>
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+        </div>
+
+        <button type="submit" class="continue-btn">Iniciar Sesión</button>
+      </form>
+
       <a href="registro.html" class="switch-btn">¿No tienes cuenta? Regístrate</a>
-        
-
-
     </div>
 
     <img src="https://i.ibb.co/MyTQXLW9/Imagen-de-Whats-App-2025-02-24-a-las-12-56-54-9943a797-removebg-preview.png" alt="Pato" class="duck-img">
-
   </div>
 
 </body>
+
 </html>
