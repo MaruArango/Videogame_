@@ -17,13 +17,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $apellido = $partes[1];
 
     // Validar si ya existe el username o correo
-    $verificar = "SELECT * FROM usuario WHERE username = '$username' OR correo = '$correo'";
+/*    $verificar = "SELECT * FROM usuario WHERE username = '$username' OR correo = '$correo'";
     $resultado = mysqli_query($conn, $verificar);
 
     if (mysqli_num_rows($resultado) > 0) {
         echo "<script>alert('El correo o username ya están registrados'); window.location='registro.html'</script>";
         exit;
-    }
+    }*/
 
     // Insertar en la base de datos
     $sql = "INSERT INTO usuario (nombre, apellido, username, correo, contrasenia) VALUES ('$nombre', '$apellido', '$username', '$correo', '$contrasenia')";

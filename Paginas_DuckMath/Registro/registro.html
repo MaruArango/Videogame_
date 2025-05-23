@@ -174,13 +174,18 @@ usernameInput.addEventListener("input", () => {
 passwordInput.addEventListener("input", () => {
   const valor = passwordInput.value;
   const seguro = /^(?=.*[A-Z])(?=.*\d).{8,}$/;
-  if (seguro.test(valor)) {
+
+  if (valor.length > 30) {
+    mostrarEstado(passwordInput, "invalido", "La contraseña debe tener 30 caracteres o menos");
+    estadoCampos.password = false;
+  } else if (seguro.test(valor)) {
     mostrarEstado(passwordInput, "valido");
     estadoCampos.password = true;
   } else {
     mostrarEstado(passwordInput, "invalido", "La contraseña debe tener 1 mayúscula, 1 número y mínimo 8 caracteres");
     estadoCampos.password = false;
   }
+
   verificarFormulario();
 });
 
